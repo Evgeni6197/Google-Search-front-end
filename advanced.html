@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {font-family: sans-serif;
+                  color:rgb(113, 118, 122)}
+            input {width: 500px;
+                   height: 20px;
+                   font-size: 15px;  }
+            .hide {display:none;
+                   margin-left: 60px; 
+                   padding: 5px;
+                   width:140px;
+                   font-size: 14px;
+                    color:rgb(235, 217, 217);
+                    background-color: rgb(53, 50, 50); }
+            .link:hover + .hide {display: block;}
+            #button {width: 100%;
+                     height:40px;
+                     background-color: rgb(32, 92, 202);
+                     color:white;}
+            #button:hover {background-color: rgb(14, 68, 168)}
+        </style>
+    </head>
+
+    <body>
+        <div style="height:100px">
+            <div class ="link" style="margin: 20px; margin-bottom: 2px; width:80px">
+                <a href="index.html"><img src="Google_logo.png" alt="Google home page" style="width:80px;"></a>
+            </div>
+
+            <div class="hide">Go to Google Home</div>
+        </div>
+        <div style="margin-left:50px; color:rgb(248, 96, 96) ; font-size: 20px; ">
+            Advanced Search
+        </div>
+        
+        <div style="padding:20px ; height: 350px;"><hr><h4>Find pages with...</h4>                       
+            <form action="https://google.com/search">                              
+                <label for "all">all these words: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp   </label>
+                <input type="text" id="all" name="as_q" ><br><br>
+    
+                <label for "this">this exact word or phrase: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp </label>
+                <input type="text" id="this" name="as_epq"><br><br>
+    
+                <label for "any">any of these words: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp</label>
+                <input type="text" id = "any" name="as_oq"><br><br>
+    
+                <label for "none">none of these words: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp </label>
+                <input type="text" id = "none" name="as_eq"><br><br><br><hr>
+
+                <div style="margin-left:300px; width:200px">
+                    <input id="button" type="submit" value="Advanced Search" >
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
