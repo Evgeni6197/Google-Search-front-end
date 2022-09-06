@@ -1,6 +1,6 @@
 This  project   designs a front-end for Google Search, Google Image Search, and Google Advanced Search, resembling Google’s own aesthetics.
 
-The queries are sent to Google servers, so the search itself also works. 
+The queries are sent to Google servers, so the search itself also works. Demonstration can be found here https://youtu.be/LawI-yi33t8
 
 To launch the project you should make the following (explained for Linux):
 1) Locally on your terminal window type: 
