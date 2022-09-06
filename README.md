@@ -3,7 +3,7 @@ This  project   designs a front-end for Google Search, Google Image Search, and 
 The queries are sent to Google servers, so the search itself also works. 
 
 To launch the project you should make the following (explained for Linux):
-1) Locally on your terminal window type 
+1) Locally on your terminal window type: 
          git clone https://github.com/Evgeni6197/Google-Search-front-end.git
 2) Launch the 'index.html' in the local browser.
 
