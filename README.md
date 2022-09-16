@@ -7,5 +7,5 @@ The queries are sent to Google servers, so the search itself also works. Demonst
 To launch the project you should make the following (explained for Linux):
 1) Locally on your terminal window type: 
          git clone https://github.com/Evgeni6197/Google-Search-front-end.git
-2) Launch the 'index.html' in the local browser.
+2) Run the 'index.html' in the local browser.
 
